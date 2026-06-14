@@ -1,0 +1,26 @@
+
+
+.trida{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    
+}
+
+.trida label{
+    text-align: center;
+}
+
+.trida label .trida input{
+    margin: auto
+}
+
+.textbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

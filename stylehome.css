@@ -1,0 +1,30 @@
+
+
+.lišta div, .lišta a{
+    color: white;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: -50px;
+}
+
+.lišta{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.lišta div{
+    flex: 1;
+    text-align: center;
+    border: solid white 2px;
+    border-radius: 5px;
+    margin: 5px;
+    height: 50px;
+}
+
+.lišta a:hover{
+    background-color: white;
+    color: black;
+}
+

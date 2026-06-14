@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>závěrečka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylebooking.css">
+</head>
+<body>
+    <div class="lišta">
+        <div><a href="./indexhome.html">Home</a></div>
+        <div><a href="./indexaboutus.html">About us</a></div>
+        <div><a href="">Booking</a></div>
+        <div><a href="./indexpayment.html">Payment</a></div>
+    </div>
+    <form class="formular" action="./booking.php" method="post">
+    
+    <div class="textbox">
+    <label>Jméno & příjmení: <input type="text" name="name" id="name" required></label> <br>
+    <label>E-mail: <input type="text" name="e-mail" id="e-mail" required></label><br>
+    <label>Tel. Číslo: <input type="text" name="telefon" id="telefon" required></label><br>
+    </div>
+    <label>Třída: 
+        <div class="trida">
+        <label for="trida">Low</label>
+        <label for="trida">Middle</label>
+        <label for="trida">High</label>
+        <label for="trida">Ultra</label>
+        <input type="radio" name="trida" id="" value="low" required checked>
+        <input type="radio" name="trida" id="" value="Middle" required>
+        <input type="radio" name="trida" id="" value="High" required>
+        <input type="radio" name="trida" id="" value="Ultra " required>
+        </div>
+    </label>
+
+    <label><input type="submit"></label>
+
+    </form>
+</body>
+</html>
